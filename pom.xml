@@ -11,7 +11,7 @@
 	<packaging>war</packaging>
 	<name>categories-grid-portlet</name>
 	<scm>
-		<developerConnection>scm:git:git://github.com:fraunhoferfokus/odp-categories-grid-portlet.git</developerConnection>
+		<developerConnection>scm:git:git://gitlab.fokus.fraunhofer.de:odp-categories-grid-portlet</developerConnection>
 	</scm>
 	<build>
 		<finalName>${project.artifactId}-${project.version}-${buildNumber}</finalName>

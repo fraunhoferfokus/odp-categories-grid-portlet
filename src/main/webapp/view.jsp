@@ -13,9 +13,11 @@
 				<liferay-portlet:param name="categoryName" value="${category.name}" />
 			</liferay-portlet:actionURL>
 			<div style="display: inline-block; float: none;">
-				<a href="<%=action%>" id="search" title="${category.title}">
-					<table
-						style="width: 100%; height: 130px; text-align: center; vertical-align: top; background: white; border-radius: 5px;">
+				<%--  msg 30.10.2013 #415: Startseite: Klick auf Kategorien-Icons leitet im IE8 nicht weiter (categories-grid-portlet) --%>
+				<%-- a href="<%=action%>" id="search" title="${category.title}"> --%>
+
+				<a href="#" onclick="location='<%=action%>'" id="search">
+					<table class="categoriesTable">
 						<tr>
 							<td>
 								<table style="margin-left: auto; margin-right: auto">
